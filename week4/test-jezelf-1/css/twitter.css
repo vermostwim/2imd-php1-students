@@ -1,0 +1,87 @@
+html{ width: 100%; height: 100%; }
+
+	body{ 
+		background-color: #76bde8;
+		background-size: cover; 
+		width: 100%;
+		height: 100%;
+		font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	}
+
+	header{
+		margin-top: 200px;
+		margin-left: 10%;
+		margin-right: 10%;
+		width: 30%;
+		float: left;
+	}
+
+	header h1{ color: #fff; font-size: 26px; font-weight: normal;margin-bottom: 0em; text-shadow: 1px 1px 0 #000;}
+	header h2{ color: #fff; font-size: 20px; font-weight: normal;margin-top: 0em; text-shadow: 1px 1px 0 #000}
+
+	#signup, #login
+	{
+		margin-right: 10%;
+		padding: 10px 5%;
+		background-color: #fff;
+		margin-top: 30px;
+	}
+	#login h2{
+		font-weight: normal; font-size: 18px; border-bottom: 1px solid #e2e2e2;
+	}
+	#rightside{ width: 40%;	padding: 10px 0; float: left; margin-top: 60px;}
+	#signup h2{ font-weight: normal; font-size: 18px; border-bottom: 1px solid #e2e2e2; }
+	#signup input, #login input{ display: block; width: 70%; margin-bottom: 10px; border-radius:5px; border: 1px solid #cccccc; padding: 5px; }
+	#signup input[type=submit]{ background-color: #fdbd2d; border: 1px solid #fd9e28; border-radius: 5px; width: 200px; font-size: 14px; font-weight: bold; text-shadow: 1px 1px 0 #fee2bf;}
+	#login input[type=submit]{ background-color: #2bb6ea; border: 1px solid #2092ca; border-radius: 5px; width: 100px; font-size: 14px; color: #fff; font-weight: bold; text-shadow: -1px -1px 0 #2092ca;}
+	#login input[type=checkbox]{ display: inline; width: auto; }
+	nav{background-color: #2d2d2d; padding: 8px 10px; text-align: right; }
+	nav a{ color: #bbbbbb; font-size: 14px; text-decoration: none;} 
+	label{ color: #999999; font-size: 14px; }
+
+
+
+
+	/* new posts */
+	#newpost
+	{
+		padding: 10px 5%;
+		background-color: #fff;
+		margin-top: 30px;
+	}
+
+	#container{ width: 50%; margin: 0 auto}
+
+	
+	#newpost h2{ font-weight: normal; font-size: 18px; border-bottom: 1px solid #e2e2e2; }
+	#newpost input, #login input{ display: block; width: 70%; margin-bottom: 10px; border-radius:5px; border: 1px solid #cccccc; padding: 5px; }
+	#newpost input[type=submit]{ background-color: #fdbd2d; border: 1px solid #fd9e28; width: 200px; font-size: 14px; font-weight: bold; text-shadow: 1px 1px 0 #fee2bf;}
+	#newpost input[type=submit]{ background-color: #2bb6ea; border: 1px solid #2092ca; width: 100px; font-size: 14px; color: #fff; font-weight: bold; text-shadow: -1px -1px 0 #2092ca;}
+	#newpost input[type=checkbox]{ display: inline; width: auto; }
+	#newpost textarea { display: block; width: 100%; margin-bottom: 10px; }
+
+	#tweets
+	{
+		margin-top: 20px;
+		padding-top: 20px;
+		background-color: #fff;
+	}
+	.name{
+		float: left; /* sorry  */
+		color: #BBBBBB;
+	}
+	#tweets .post{
+		width: 95%;
+		height: 100px;
+		margin-bottom: 15px;
+		padding-left: 5%;
+		padding-top: 10px;
+		border-top: 1px solid #cccccc;
+	}
+	#tweets p{
+		width: 90%;
+	}
+	#tweets h2{ color: #333333; font-size: 16px; font-weight: normal;margin-top: 0em; text-shadow: 1px 1px 0 #fff; padding-left: 5%;padding-bottom: 15px;}
+
+	#tweets ul{ padding-left: 0; }
+	#tweets ul li{padding: 5px 5%; list-style-type: none; border-top: 1px solid #dddddd; font-size: 15px;}
